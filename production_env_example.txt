@@ -1,0 +1,25 @@
+# Production Environment Configuration
+# Copy this to .env and update with your deployed URLs
+
+# Database Configuration
+DATABASE_URL=postgresql://username:password@localhost:5432/rca_platform
+
+# Google Chat Webhook
+GOOGLE_CHAT_WEBHOOK_URL=https://chat.googleapis.com/v1/spaces/AAQAJSJGzQo/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=lrJ-5USNWwEZcG7p0e9X6uQTGYeLn60yY7SkgpTXUhQ
+
+# CubeAPM Configuration
+METRIC_URL=http://observability-prod.fxtrt.io:3130/api/metrics/api/v1/query_range
+TRACE_BASE_URL=https://cubeapm-newrelic-prod.fxtrt.io/api/traces/api/v1/search
+LOGS_API_URL=http://observability-prod.fxtrt.io:3130/api/logs/select/logsql/query
+
+# Application Settings
+ENVIRONMENT=production
+
+# 🚀 UPDATE THIS AFTER DEPLOYMENT
+# Replace with your actual deployed dashboard URL
+DASHBOARD_BASE_URL=https://your-deployed-dashboard.netlify.app
+
+# Example URLs:
+# DASHBOARD_BASE_URL=https://rca-dashboard.netlify.app
+# DASHBOARD_BASE_URL=https://rca-dashboard.vercel.app
+# DASHBOARD_BASE_URL=https://username.github.io/rca-dashboard 

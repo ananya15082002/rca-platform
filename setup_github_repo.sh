@@ -1,0 +1,42 @@
+#!/bin/bash
+
+echo "🚀 Setting up GitHub Repository for RCA Platform"
+echo "================================================"
+echo ""
+
+echo "📋 Steps to create GitHub repository:"
+echo ""
+echo "1. Go to https://github.com/new"
+echo "2. Repository name: rca-platform"
+echo "3. Description: Root Cause Analysis Platform with FastAPI backend and React frontend"
+echo "4. Make it Public"
+echo "5. Don't initialize with README (we already have one)"
+echo "6. Click 'Create repository'"
+echo ""
+
+echo "🔗 After creating the repository, run these commands:"
+echo ""
+echo "git remote add origin https://github.com/ananya15082002/rca-platform.git"
+echo "git branch -M main"
+echo "git push -u origin main"
+echo ""
+
+echo "🎯 What will be pushed to GitHub:"
+echo "   ✅ FastAPI backend with RCA agent"
+echo "   ✅ React frontend with dashboard"
+echo "   ✅ PostgreSQL database models"
+echo "   ✅ Google Chat integration"
+echo "   ✅ Local LLM integration"
+echo "   ✅ Deployment configurations"
+echo "   ✅ All documentation and scripts"
+echo ""
+
+echo "📁 Files included:"
+echo "   - Backend: app/ (FastAPI, models, worker)"
+echo "   - Frontend: frontend/ (React, Tailwind, charts)"
+echo "   - Config: requirements.txt, package.json"
+echo "   - Docs: README.md, deployment guides"
+echo "   - Scripts: test files, deployment scripts"
+echo ""
+
+echo "🚀 Ready to create GitHub repository!" 
